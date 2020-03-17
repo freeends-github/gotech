@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Bootstrap 4.4.1 Boilerplate - Basic
 
@@ -7,3 +8,7 @@ This is a Bootstrap 4.4.1 Boilerplate with Gulp 4+. Sass, browser-sync.
 
 ![bootstrapstarter](src/img/screenshot.jpg)
 
+=======
+# gotech
+GOTECH MPA March
+>>>>>>> 73f6ab83d68f2fe5c702daaa5f8ba2341fba2d2f

@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+header {
+  margin-top: 40px;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 13.4%;
+  font-size: 14px;
+}
+
+header nav img {
+  width: 151.51px;
+  height: auto;
+}
+
+header nav #navigation_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 78.6%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header nav #navigation_bar li {
+  list-style: none;
+  text-transform: capitalize;
+}
+
+header nav #navigation_bar li a, header nav #navigation_bar li input, header nav #navigation_bar li button {
+  width: 100%;
+  text-transform: capitalize;
+}
+
+header nav #navigation_bar li .hover-underline--animation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: relative;
+  line-height: 2;
+}
+
+header nav #navigation_bar li .hover-underline--animation::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  height: 8px;
+  bottom: -4px;
+  left: 40%;
+  background-image: linear-gradient(45deg, #6362D7, #FF8FE2);
+  border-radius: 8px;
+  color: #A174DB;
+  -webkit-transform-origin: top center;
+          transform-origin: top center;
+  -webkit-transition: -webkit-transform 0.25s ease-out;
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+header nav #navigation_bar li .hover-underline--animation:hover {
+  color: #A174DB;
+}
+
+header nav #navigation_bar li .hover-underline--animation:hover::after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+header nav #navigation_bar li .primary_button {
+  width: 160px;
+  height: 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: linear-gradient(45deg, #6362D7, #FF8FE2);
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+}
+
+header nav #navigation_bar li a {
+  color: #555555;
+}
+
+header nav #navigation_bar #search-here {
+  width: 29.34%;
+}
+
+header nav #navigation_bar #search-here .search-here {
+  background-image: url(../img/search@2x.png);
+  background-position: 93% center;
+  background-repeat: no-repeat;
+  background-size: 17.4px 17.4px;
+  width: 100%;
+  height: 42px;
+  padding: 0 19px;
+  border: #C6BAF8 1px solid;
+  border-radius: 4px;
+}
+
+header nav #navigation_bar #search-here .search-here::-webkit-input-placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+
+header nav #navigation_bar #search-here .search-here:-ms-input-placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+
+header nav #navigation_bar #search-here .search-here::-ms-input-placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+
+header nav #navigation_bar #search-here .search-here::placeholder {
+  color: #ccc;
+  font-size: 12px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -13,7 +13,7 @@ const htmlPartial = require('gulp-html-partial');
 const clean = require('gulp-clean');
 const isProd = process.env.NODE_ENV === 'prod';
 
-const htmlFile = ['src/*.html']
+const htmlFile = ['src/html/*.html']
 
 function html() {
     return gulp.src(htmlFile)
@@ -67,7 +67,7 @@ function browserSyncReload(done) {
 
 
 function watchFiles() {
-    gulp.watch('src/**/*.html', gulp.series(html, browserSyncReload));
+    gulp.watch('src/html/*.html', gulp.series(html, browserSyncReload));
     gulp.watch('src/**/*.scss', gulp.series(css, browserSyncReload));
     gulp.watch('src/**/*.js', gulp.series(js, browserSyncReload));
     gulp.watch('src/img/**/*.*', gulp.series(img));

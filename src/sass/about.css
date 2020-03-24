@@ -10,6 +10,14 @@ body {
   overflow-x: hidden;
 }
 
+body > img {
+  position: absolute;
+  left: 47px;
+  right: 46.7px;
+  top: -0.3px;
+  z-index: -3333;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,17 +44,9 @@ p {
 }
 
 header {
-  margin-top: 40px;
   width: 100%;
-  height: 100vh;
-}
-
-header > img {
-  position: absolute;
-  left: 43px;
-  right: 43.4px;
-  top: 110.7px;
-  z-index: -11111;
+  height: 390px;
+  padding-top: 40px;
 }
 
 header nav#header-nav {
@@ -170,46 +170,35 @@ header nav#header-nav #navigation_bar #search-here .search-here::placeholder {
 }
 
 header #header_content-background {
-  width: 100%;
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  background-image: url(../img/peopleonthefloor.png);
-  background-repeat: no-repeat;
-  background-position-y: 85%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  height: 390px;
+  z-index: -1;
 }
 
 header #header_content-background .header_content {
-  text-align: center;
-  width: 552px;
-  height: 272px;
-  margin-top: 35.8px;
-}
-
-header #header_content-background .header_content p {
-  margin-top: 24px;
-}
-
-header #header_content-background .header_content > div {
-  margin-top: 35.8px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 350px;
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
 }
 
-header #header_content-background .header_content > div .know-more {
-  margin-left: 36px;
+header #header_content-background .header_content p {
+  margin-top: 39px;
 }
 
 .primary_button {
@@ -261,4 +250,4 @@ header #header_content-background .header_content > div .know-more {
   border: none;
   color: white;
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=about.css.map */

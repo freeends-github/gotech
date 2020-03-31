@@ -1,34 +1,117 @@
-$theme-colors: (
-    "primary": #ff3a52,
-    "dark": #000000
-);
-
-@import "node_modules/bootstrap/scss/bootstrap";
-
-body {
-    padding-top:56px;
-}
-.footer {
-    margin-top:3rem;
-}
-.navbar {
-    border-bottom:1px solid #eee;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
-.help h1 {
-
-}
-.help p {
-
-}
-.help {
-    h1 {
-        color: red;
+.client_section{
+    width:80%;
+    margin:auto;
+    margin-top: 30px;
+    overflow: hidden;
+    position:relative;
+    h1{
+        font:400 36px/46px Poppins;
+        text-align:center;
+        text-transform: capitalize;
+        span{
+            font:600 36px/46px Poppins;
+        }
+    }
+    .client_items{
+        margin:45px 0 0 0 ;
+        overflow:hidden;
+        .client_item{
+            display:inline-flex;
+            flex-flow:column;
+            align-items: center;
+            position:relative;
+            .client_img{
+                width:187px;
+                height:187px;
+                img{
+                    width:100%;
+                    height:100%;
+                }
+            }
+            .client_info{
+                display:flex;
+                flex-flow:column;
+                align-items:center;
+                width:40%;
+                margin:auto;
+                margin-top:23px;
+                position: relative;
+                p{
+                    font:400 24px/34px Poppins;
+                    text-align:center;
+                    &::before{
+                        content:url(../img/quote-left@2x.png);
+                        position:absolute;
+                        top:-10px;
+                        left:-50px;
+                    }
+                    &::after{
+                        content:url(../img/quote-left@2x.png);
+                        transform: rotateY(180deg);
+                        position:absolute;
+                        top:-10px;
+                        right:-50px;
+                    }
+                }
+                h2{
+                    font:600 16px/30px Poppins;
+                    margin-top:33px;
+                }
+                h3{
+                    font:400 14px/30px Poppins;
+                    margin-top:30px;
+                }
+            }
+        }
+    }
+    .client_arrows{
+        display:flex;
+        justify-content: center;
+        margin-top:35px;
+        button{
+            background:transparent;
+            border:none;
+            outline:none;
+            cursor:pointer;
+        }
+        .left_arrow{
+            margin-right:60px;
+        }
+    }
+    .client_photo1{
+        position:absolute;
+        top:15%;
+        right:10%;
+    }
+    .client_photo2{
+        position:absolute;
+        bottom:30%;
+        right:0%;
+    }
+    .client_photo3{
+        position:absolute;
+        bottom:0%;
+        right:10%;
+    }
+    .client_photo4{
+        position:absolute;
+        bottom:0%;
+        left:10%;
+    }
+    .client_photo5{
+        position:absolute;
+        bottom:30%;
+        left:0%;
+    }
+    .client_photo6{
+        position:absolute;
+        top:10%;
+        left:15%;
     }
 }
-footer {
-    p {
-
-     }
-}
-

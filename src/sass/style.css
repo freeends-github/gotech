@@ -1,0 +1,367 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.form_section {
+  width: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), to(#C9E6FF));
+  background: linear-gradient(to right, #FFFFFF, #C9E6FF);
+}
+
+.form_section .form_background {
+  overflow: hidden;
+  position: relative;
+}
+
+.form_section .form_background .background_img {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+  z-index: 1;
+}
+
+.form_section .form_background .form_container {
+  width: 45%;
+  margin: 60px auto;
+  position: relative;
+  z-index: 2;
+}
+
+.form_section .form_background .form_container h1 {
+  font: 400 36px/46px Poppins;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.form_section .form_background .form_container h3 {
+  font: 600 36px/46px Poppins;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.form_section .form_background .form_container .form {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 35px;
+  padding: 60px 50px 50px 50px;
+  position: relative;
+}
+
+.form_section .form_background .form_container .form h2 {
+  font: 500 14px/21px Poppins;
+  font-weight: bold;
+}
+
+.form_section .form_background .form_container .form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 15px 8px 18px 8px;
+  color: #C2C2C2;
+  font: 500 13px/20px Poppins;
+}
+
+.form_section .form_background .form_container .form select {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 15px 8px 18px 8px;
+  font: 500 13px/20px Poppins;
+  color: #C2C2C2;
+}
+
+.form_section .form_background .form_container .form textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E5E5E5;
+  padding: 15px 8px 18px 8px;
+  resize: none;
+  font: 500 13px/20px Poppins;
+  color: #C2C2C2;
+}
+
+.form_section .form_background .form_container .form .first_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form_section .form_background .form_container .form .first_form .name_form {
+  width: 48%;
+}
+
+.form_section .form_background .form_container .form .first_form .name_form input {
+  width: 100%;
+}
+
+.form_section .form_background .form_container .form .first_form .surname_form {
+  width: 48%;
+}
+
+.form_section .form_background .form_container .form .first_form .surname_form input {
+  width: 100%;
+}
+
+.form_section .form_background .form_container .form .second_form {
+  width: 100%;
+  margin-top: 35px;
+}
+
+.form_section .form_background .form_container .form .second_form input {
+  width: 100%;
+}
+
+.form_section .form_background .form_container .form .second_form select {
+  width: 100%;
+}
+
+.form_section .form_background .form_container .form .second_form textarea {
+  width: 100%;
+  height: 100px;
+}
+
+.form_section .form_background .form_container .form button {
+  margin-top: 35px;
+  padding: 14px 31px;
+  background: -webkit-gradient(linear, left bottom, right top, from(#6362D7), to(#FF8FE2));
+  background: linear-gradient(to top right, #6362D7, #FF8FE2);
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font: 500 15px/23px Poppins;
+  color: white;
+  cursor: pointer;
+}
+
+.form_section .form_background .guy_img1 {
+  position: absolute;
+  left: 14%;
+  bottom: 0;
+  z-index: 3;
+  width: 16%;
+}
+
+.form_section .form_background .guy_img2 {
+  position: absolute;
+  right: 20%;
+  bottom: 0;
+  z-index: 3;
+  width: 10%;
+}
+
+.form_section .form_background .guy_img3 {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  z-index: 3;
+  width: 7%;
+}
+
+.form_section .form_background .dots_img {
+  position: absolute;
+  right: 21%;
+  bottom: 44%;
+  z-index: 1;
+  width: 14%;
+}
+
+.form_section .form_background .plane_img {
+  position: absolute;
+  right: 18%;
+  bottom: 61%;
+  z-index: 1;
+  width: 4.5%;
+}
+
+footer {
+  overflow: hidden;
+}
+
+footer .footer-info_part {
+  width: 70%;
+  margin: 30px auto 0 auto;
+}
+
+footer .footer-info_part .footer_llogo {
+  text-align: center;
+}
+
+footer .footer-info_part .footer_container {
+  margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-info_part .footer_container .footer_list {
+  margin-top: 23px;
+}
+
+footer .footer-info_part .footer_container li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+footer .footer-info_part .footer_container a {
+  color: #777777;
+  text-decoration: none;
+  font: 400 13px/28px Poppins;
+}
+
+footer .footer-info_part .footer_container p {
+  font: 400 13px/23px Poppins;
+  margin-top: 23px;
+}
+
+footer .footer-info_part .footer_container .footer_items1,
+footer .footer-info_part .footer_container .footer_items4 {
+  width: 20%;
+}
+
+footer .footer-info_part .footer_container .footer_items h1 {
+  font: 500 15px/23px Poppins;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+footer .footer-info_part .footer_container .footer_items .contact_info {
+  margin-top: 25px;
+}
+
+footer .footer-info_part .footer_container .footer_items .contact_info nav {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-info_part .footer_container .footer_items .contact_info i {
+  color: #6565fd;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons h1 {
+  margin-top: 23px;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container div a {
+  color: white;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container div a i {
+  font-size: 15px;
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container #facebook {
+  background: -webkit-gradient(linear, left top, right top, from(#6362D7), to(#FF8FE2));
+  background: linear-gradient(to right, #6362D7, #FF8FE2);
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container #skype {
+  background: -webkit-gradient(linear, left top, right top, from(#00B56C), to(#9EE69D));
+  background: linear-gradient(to right, #00B56C, #9EE69D);
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container #linkedin {
+  background: -webkit-gradient(linear, left top, right top, from(#FF9AB6), to(#F23D98));
+  background: linear-gradient(to right, #FF9AB6, #F23D98);
+}
+
+footer .footer-info_part .footer_container .footer_items .social_icons .social_icons_container #instagram {
+  background: -webkit-gradient(linear, left top, right top, from(#F09376), to(#F0DB79));
+  background: linear-gradient(to right, #F09376, #F0DB79);
+}
+
+footer .footer_imgs {
+  position: relative;
+}
+
+footer .footer_imgs .footer_img1 {
+  width: 98%;
+  position: relative;
+  z-index: 2;
+}
+
+footer .footer_imgs .footer_background {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+footer .footer_imgs .footer_background2 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+footer .footer_imgs .footer_img2 {
+  position: absolute;
+  bottom: 0;
+  left: 14%;
+  z-index: 3;
+  width: 18%;
+}
+
+footer .footer_imgs .footer_img3 {
+  position: absolute;
+  bottom: 0;
+  right: 14%;
+  z-index: 3;
+  width: 18%;
+}
+
+footer .footer_imgs .copyright {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font: 400 12px/28px Poppins;
+  color: #999999;
+  top: 40%;
+  z-index: 4;
+}
+/*# sourceMappingURL=style.css.map */
